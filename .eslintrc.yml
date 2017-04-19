@@ -6,6 +6,9 @@ plugins:
   - jsx-a11y
   - import
   - flowtype
+env:
+  browser: true
+  jest: true
 rules:
   import/no-extraneous-dependencies:
     - error
